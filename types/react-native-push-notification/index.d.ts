@@ -84,6 +84,7 @@ export class PushNotificationObject {
     id?: string | number | undefined;
     title?: string | undefined;
     message: string;
+    data?: Record<string, any>;
     userInfo?: any;
     playSound?: boolean | undefined;
     soundName?: string | undefined;
